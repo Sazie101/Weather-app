@@ -21,6 +21,7 @@ function changeweatherpic(data) {
     switch(Weathercondition) {
         case 'Clouds':
             weatherIcon.src = "./assets/pictures/full-clouds.png";
+            body.style.backgroundImage = 'url("./assets/pictures/srg.gif")';
             break;
         case 'Clear':
             weatherIcon.src = "./assets/pictures/clear.png";
@@ -28,6 +29,7 @@ function changeweatherpic(data) {
             break;
         case 'Rain':
             weatherIcon.src = "./assets/pictures/heavy-rain.png";
+            body.style.backgroundImage = 'url("./assets/pictures/rain.gif")';
             break;
         case 'Drizzle':
             weatherIcon.src = "./assets/pictures/drizzle.png";
